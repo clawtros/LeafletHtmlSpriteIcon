@@ -18,10 +18,10 @@ Usage:
 	        sneeze:        [131, 160, 'charging', 2],
 	  };
 	  var spritesheet = new createjs.SpriteSheet(parsed);
-	
+	  // Pass 
 	  var icon = new L.HtmlSpriteIcon({ 
 	      spritesheet: spritesheet,
-	      animation: florae[Math.floor(Math.random() * florae.length)] });
+	      animation: 'alert' });
 	
 	  var ick = new IckMap(spritesheet);
 	};
