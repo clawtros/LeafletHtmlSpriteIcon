@@ -2,7 +2,7 @@ EaselJS BitmapAnimations as LeafletJS Map Markers
 -------------------------------------------------
 
 Allows loading EaselJS Spritesheets as HTML Div elements onto a map
-marker.  
+marker.  H/T to https://github.com/dwnoble/LeafletHtmlIcon .
 
 Usage:
 -----
